@@ -7,11 +7,14 @@ import { Component, Output } from '@angular/core';
 })
 export class AppComponent {
   title = 'interpolated text';
+  itemImageUrl = '../assets/me.jpeg'
+  isUnchanged = true;
 
   @Output()
   donkeyTwo = 'This text is property bound';
 
-  // scream(s : string) {
-  //   console.log("Ahhhhh!" + s);
-  // }
+  onClickMe() {
+    console.log("HELLO !");
+  }
+
 }
