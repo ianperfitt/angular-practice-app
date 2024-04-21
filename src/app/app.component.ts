@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-practice-app';
+  title = 'interpolated text';
+
+  @Output()
+  donkeyTwo = 'This text is property bound';
+
+  // scream(s : string) {
+  //   console.log("Ahhhhh!" + s);
+  // }
 }
