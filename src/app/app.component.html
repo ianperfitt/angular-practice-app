@@ -1,70 +1,78 @@
 <html>
   <head></head>
   <body>
-
     <div class="practice-div" name="interpolation-example-1">
-      <br>
+      <br />
       Interpolation Example 1:
-      <br>
-      <br>
-      Interpolated text: {{title}}
+      <br />
+      <br />
+      Interpolated text: {{ title }}
     </div>
-    
-    <br>
-    <br>
-    <br>
-    <br>
+
+    <br />
+    <br />
+    <br />
+    <br />
 
     <div class="practice-div" name="property-binding-example-1">
-      <br>
+      <br />
       Property Binding Example 1:
-      <br>
-      <br>
+      <br />
+      <br />
       <app-practice [donkeyOne]="donkeyTwo"></app-practice>
     </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
+    <br />
 
     <div class="practice-div" name="property-binding-example-2">
-      <br>
+      <br />
       Property Binding Example 2:
-      <br>
-      <br>
-     <img alt ="item" [src]="itemImageUrl">
+      <br />
+      <br />
+      <img alt="item" [src]="itemImageUrl" />
     </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
+    <br />
 
     <div class="practice-div" name="property-binding-example-3">
-      <br>
+      <br />
       Property Binding Example 3:
-      <br>
-      <br>
-      <button type="button" [disabled]="isUnchanged"> Disabled Button</button>
+      <br />
+      <br />
+      <button type="button" [disabled]="isUnchanged">Disabled Button</button>
     </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
+    <br />
 
     <div class="practice-div" name="event-binding-example-1">
-      <br>
+      <br />
       Event Binding Example 1:
-      <br>
-      <br>
-      <button type="button" (click)="onClickMe()"> Click me !</button>
+      <br />
+      <br />
+      <button type="button" (click)="onClickMe()">Click me !</button>
     </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
+    <br />
+    ------------Typescript Practice----------------
+    <br />
+    <br />
+    <br />
+    <br />
+
+    User name: {{ user.name }}
+    <br />
+    User id: {{ user.id }}
   </body>
 </html>
